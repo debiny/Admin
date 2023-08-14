@@ -245,7 +245,8 @@
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
                                                         <select class="form-select" id="selectKin">
-                                                            <option value="" disabled selected>Selecione uma opção</option>
+                                                            <option value="" disabled selected>Selecione uma opção
+                                                            </option>
                                                             <option value="pai">Pai</option>
                                                             <option value="mae">Mãe</option>
                                                             <option value="irmao">Irmão</option>
@@ -267,100 +268,100 @@
                                                         <label for="selectKin2">Sexo</label>
                                                     </div>
                                                 </div>
-    
+
                                             </div>
 
-                                                <div class="form-floating mb-3">
+                                            <div class="form-floating mb-3">
+                                                <div class="form-floating">
+                                                    <input class="form-control" id="inputName2" type="text"
+                                                        placeholder="Informe o sobrenome" />
+                                                    <label for="inputName">Nome completo</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputCPF2" type="text"
+                                                            placeholder="Informe o CPF" />
+                                                        <label for="inputCPF">CPF</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
                                                     <div class="form-floating">
-                                                        <input class="form-control" id="inputName2" type="text"
-                                                            placeholder="Informe o sobrenome" />
-                                                        <label for="inputName">Nome completo</label>
+                                                        <input class="form-control" id="inputRG2" type="text"
+                                                            placeholder="Informe o RG" />
+                                                        <label for="inputRG">RG</label>
                                                     </div>
                                                 </div>
-
-                                                <div class="row mb-3">
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating mb-3 mb-md-0">
-                                                            <input class="form-control" id="inputCPF2" type="text"
-                                                                placeholder="Informe o CPF" />
-                                                            <label for="inputCPF">CPF</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating">
-                                                            <input class="form-control" id="inputRG2" type="text"
-                                                                placeholder="Informe o RG" />
-                                                            <label for="inputRG">RG</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row mb-3">
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating mb-3 mb-md-0">
-                                                            <input class="form-control" id="inputNaturalness2"
-                                                                type="text" placeholder="Informe a naturalidade" />
-                                                            <label for="inputNaturalness">Naturalidade</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating">
-                                                            <input class="form-control" id="inputNationality2"
-                                                                type="text" placeholder="Informe a nacionalidade" />
-                                                            <label for="inputNationality">Nacionalidade</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row mb-3">
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating mb-3 mb-md-0">
-                                                            <input class="form-control" id="inputOccupation2"
-                                                                type="text" placeholder="Informe a profissão" />
-                                                            <label for="inputOccupation">Profissão</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating">
-                                                            <input class="form-control" id="inputEmail2" type="text"
-                                                                placeholder="Informe email" />
-                                                            <label for="inputEmail">Email</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row mb-3">
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating mb-3 mb-md-0">
-                                                            <input class="form-control" id="inputTelephone3" type="text"
-                                                                placeholder="Informe o primeiro telefone" />
-                                                            <label for="inputTelephone1">Telefone</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-floating">
-                                                            <input class="form-control" id="inputTelephone4" type="text"
-                                                                placeholder="Informe o sobrenome" />
-                                                            <label for="inputTelephone2">Telefone Recado</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Adicione mais campos conforme necessário -->
                                             </div>
 
-                                            <script>
-                                                document.getElementById("checkboxResponsavel").addEventListener("change", function () {
-                                                    var camposNovoResponsavel = document.getElementById("camposNovoResponsavel");
-                                                    camposNovoResponsavel.style.display = this.checked ? "block" : "none";
-                                                });
-                                            </script>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputNaturalness2" type="text"
+                                                            placeholder="Informe a naturalidade" />
+                                                        <label for="inputNaturalness">Naturalidade</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input class="form-control" id="inputNationality2" type="text"
+                                                            placeholder="Informe a nacionalidade" />
+                                                        <label for="inputNationality">Nacionalidade</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputOccupation2" type="text"
+                                                            placeholder="Informe a profissão" />
+                                                        <label for="inputOccupation">Profissão</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input class="form-control" id="inputEmail2" type="text"
+                                                            placeholder="Informe email" />
+                                                        <label for="inputEmail">Email</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputTelephone3" type="text"
+                                                            placeholder="Informe o primeiro telefone" />
+                                                        <label for="inputTelephone1">Telefone</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating">
+                                                        <input class="form-control" id="inputTelephone4" type="text"
+                                                            placeholder="Informe o sobrenome" />
+                                                        <label for="inputTelephone2">Telefone Recado</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Adicione mais campos conforme necessário -->
+                                        </div>
+
+                                        <script>
+                                            document.getElementById("checkboxResponsavel").addEventListener("change", function () {
+                                                var camposNovoResponsavel = document.getElementById("camposNovoResponsavel");
+                                                camposNovoResponsavel.style.display = this.checked ? "block" : "none";
+                                            });
+                                        </script>
 
 
 
 
 
                                     </form>
-                                
+
                                     <div class="row mb-3">
                                         <div class="col-md-6">
                                             <div class="form-check">
@@ -370,7 +371,7 @@
                                             </div>
                                         </div>
                                     </div>
-    
+
                                     <div class="row mb-3" id="camposDependente" style="display: none;">
                                         <!-- Coloque aqui os campos adicionais para o novo dependente -->
                                         <div class="row mb-3">
@@ -399,100 +400,100 @@
                                                     <label for="selectKin2">Sexo</label>
                                                 </div>
                                             </div>
-    
+
                                         </div>
-    
-                                           
-    
-                                            <div class="form-floating mb-3">
+
+
+
+                                        <div class="form-floating mb-3">
+                                            <div class="form-floating">
+                                                <input class="form-control" id="inputName2" type="text"
+                                                    placeholder="Informe o sobrenome" />
+                                                <label for="inputName">Nome completo</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" id="inputCPF2" type="text"
+                                                        placeholder="Informe o CPF" />
+                                                    <label for="inputCPF">CPF</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
                                                 <div class="form-floating">
-                                                    <input class="form-control" id="inputName2" type="text"
-                                                        placeholder="Informe o sobrenome" />
-                                                    <label for="inputName">Nome completo</label>
+                                                    <input class="form-control" id="inputRG2" type="text"
+                                                        placeholder="Informe o RG" />
+                                                    <label for="inputRG">RG</label>
                                                 </div>
                                             </div>
-    
-                                            <div class="row mb-3">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputCPF2" type="text"
-                                                            placeholder="Informe o CPF" />
-                                                        <label for="inputCPF">CPF</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating">
-                                                        <input class="form-control" id="inputRG2" type="text"
-                                                            placeholder="Informe o RG" />
-                                                        <label for="inputRG">RG</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-    
-                                            <div class="row mb-3">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputNaturalness2" type="text"
-                                                            placeholder="Informe a naturalidade" />
-                                                        <label for="inputNaturalness">Naturalidade</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating">
-                                                        <input class="form-control" id="inputNationality2" type="text"
-                                                            placeholder="Informe a nacionalidade" />
-                                                        <label for="inputNationality">Nacionalidade</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-    
-                                            <div class="row mb-3">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputOccupation2" type="text"
-                                                            placeholder="Informe a profissão" />
-                                                        <label for="inputOccupation">Profissão</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating">
-                                                        <input class="form-control" id="inputEmail2" type="text"
-                                                            placeholder="Informe email" />
-                                                        <label for="inputEmail">Email</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-    
-                                            <div class="row mb-3">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputTelephone3" type="text"
-                                                            placeholder="Informe o primeiro telefone" />
-                                                        <label for="inputTelephone1">Telefone</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating">
-                                                        <input class="form-control" id="inputTelephone4" type="text"
-                                                            placeholder="Informe o sobrenome" />
-                                                        <label for="inputTelephone2">Telefone Recado</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Adicione mais campos conforme necessário -->
                                         </div>
-    
-                                        <script>
-                                            document.getElementById("checkboxDependente").addEventListener("change", function () {
-                                                var camposNovoResponsavel = document.getElementById("camposDependente");
-                                                camposDependente.style.display = this.checked ? "block" : "none";
-                                            });
-                                        </script>
-    
-                                        <!-- Campos dependente -->
-    
-    
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" id="inputNaturalness2" type="text"
+                                                        placeholder="Informe a naturalidade" />
+                                                    <label for="inputNaturalness">Naturalidade</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input class="form-control" id="inputNationality2" type="text"
+                                                        placeholder="Informe a nacionalidade" />
+                                                    <label for="inputNationality">Nacionalidade</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" id="inputOccupation2" type="text"
+                                                        placeholder="Informe a profissão" />
+                                                    <label for="inputOccupation">Profissão</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input class="form-control" id="inputEmail2" type="text"
+                                                        placeholder="Informe email" />
+                                                    <label for="inputEmail">Email</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" id="inputTelephone3" type="text"
+                                                        placeholder="Informe o primeiro telefone" />
+                                                    <label for="inputTelephone1">Telefone</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input class="form-control" id="inputTelephone4" type="text"
+                                                        placeholder="Informe o sobrenome" />
+                                                    <label for="inputTelephone2">Telefone Recado</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Adicione mais campos conforme necessário -->
                                     </div>
+
+                                    <script>
+                                        document.getElementById("checkboxDependente").addEventListener("change", function () {
+                                            var camposNovoResponsavel = document.getElementById("camposDependente");
+                                            camposDependente.style.display = this.checked ? "block" : "none";
+                                        });
+                                    </script>
+
+                                    <!-- Campos dependente -->
+
+
                                     <div class="row mb-3">
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3 mb-md-0">
@@ -511,17 +512,19 @@
                                     </div>
                                 </div>
 
-                                <!-- Campos dependente -->
+                            </div>
 
-                                
-                                <!-- 
+                            <!-- Campos dependente -->
+
+
+                            <!-- 
                             <div class="card-footer text-center py-3">
                                 <div class="small"><a href="login.html">Have an account? Go to login</a></div>
                             </div>
                              -->
-                            </div>
                         </div>
                     </div>
+                </div>
             </main>
         </div>
         <div id="layoutAuthentication_footer">
