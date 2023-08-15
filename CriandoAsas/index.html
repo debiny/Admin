@@ -27,10 +27,11 @@
         </div>
 
 
-        
+
         <div class="row mb-3">
             <div class="col-md-2">
-                <div class="form-floating mb-3 mb-md-0">  <!-- Coloca o efeito de ao clicar o nome do campo fica na parte superior do campo-->
+                <div class="form-floating mb-3 mb-md-0">
+                    <!-- Coloca o efeito de ao clicar o nome do campo fica na parte superior do campo-->
                     <select class="form-select" id="parentesco" required>
                         <option value="" disabled selected>Selecione</option>
                         <option value="pai">Pai</option>
@@ -56,32 +57,29 @@
             <div class="col-md-8">
                 <div class="form-floating mb-3">
                     <div class="form-floating">
-                        <input class="form-control" id="inputName"  type="text" placeholder="Informe o nome completo" />
+                        <input class="form-control" id="inputName" type="text" placeholder="Informe o nome completo" />
                         <label for="inputName">Nome completo</label>
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
 
         <div class="row mb-3">
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                    <input class="form-control" id="inputCPF" type="text"
-                        placeholder="Informe o CPF" />
+                    <input class="form-control" id="inputCPF" type="text" placeholder="Informe o CPF" />
                     <label for="inputCPF">CPF</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputRG" type="text"
-                        placeholder="Informe o RG" />
+                    <input class="form-control" id="inputRG" type="text" placeholder="Informe o RG" />
                     <label for="inputRG">RG</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputRG" type="text"
-                        placeholder="Informe o RG" />
+                    <input class="form-control" id="inputRG" type="text" placeholder="Informe o RG" />
                     <label for="inputRG">Orgão expedidor</label>
                 </div>
             </div>
@@ -105,14 +103,13 @@
             </div>
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                    <input class="form-control" id="inputOccupation" type="text"
-                        placeholder="Informe a profissão" />
+                    <input class="form-control" id="inputOccupation" type="text" placeholder="Informe a profissão" />
                     <label for="inputOccupation">Profissão</label>
                 </div>
             </div>
         </div>
 
-     
+
         <div class="row mb-3">
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
@@ -123,15 +120,13 @@
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputTelephone2" type="text"
-                        placeholder="Informe o sobrenome" />
+                    <input class="form-control" id="inputTelephone2" type="text" placeholder="Informe o sobrenome" />
                     <label for="inputTelephone2">Telefone Recado</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputEmail" type="text"
-                        placeholder="Informe email" />
+                    <input class="form-control" id="inputEmail" type="text" placeholder="Informe email" />
                     <label for="inputEmail">Email</label>
                 </div>
             </div>
@@ -140,79 +135,102 @@
 
 
 
-        
 
-    <hr>
- 
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <label class="required" for="cep">CEP:</label>
-            <input type="text" class="form-control" id="cep" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
+
+        <hr>
+        <a id="inputEndereco" >Endereço diferente</a>
+     
+        <div id="endereco">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="required" for="cep">CEP:</label>
+                    <input type="text" class="form-control" id="cep" required>
+                    <div class="invalid-feedback">Campo obrigatório.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="required" for="endereco">Endereço:</label>
+                    <input type="text" class="form-control" id="endereco" required>
+                    <div class="invalid-feedback">Campo obrigatório.</div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="required" for="bairro">Bairro:</label>
+                    <input type="text" class="form-control" id="bairro" required>
+                    <div class="invalid-feedback">Campo obrigatório.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="required" for="numero">Número:</label>
+                    <input type="text" class="form-control" id="numero" required>
+                    <div class="invalid-feedback">Campo obrigatório.</div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" class="form-control" id="complemento">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="pontoReferencia">Ponto de Referência:</label>
+                    <input type="text" class="form-control" id="pontoReferencia">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="required" for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" id="cidade" required>
+                    <div class="invalid-feedback">Campo obrigatório.</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="required" for="uf">UF:</label>
+                    <input type="text" class="form-control" id="uf" required>
+                    <div class="invalid-feedback">Campo obrigatório.</div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 mb-3">
-            <label class="required" for="endereco">Endereço:</label>
-            <input type="text" class="form-control" id="endereco" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-6 mb-3">
+                <label for="profissao">Profissão:</label>
+                <input type="text" class="form-control" id="profissao">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="required" for="rendaFamiliar">Renda Familiar:</label>
+                <input type="text" class="form-control" id="rendaFamiliar" required>
+                <div class="invalid-feedback">Campo obrigatório.</div>
+            </div>
         </div>
 
-    </div>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <label class="required" for="bairro">Bairro:</label>
-            <input type="text" class="form-control" id="bairro" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
+        <div class="button-group">
+            <button type="submit" class="btn btn-primary">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Salvar e sair</button>
+            <button type="submit" class="btn btn-primary">Cadastrar outro familiar</button>
         </div>
-        <div class="col-md-6 mb-3">
-            <label class="required" for="numero">Número:</label>
-            <input type="text" class="form-control" id="numero" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <label for="complemento">Complemento:</label>
-            <input type="text" class="form-control" id="complemento">
-        </div>
-        <div class="col-md-6 mb-3">
-            <label for="pontoReferencia">Ponto de Referência:</label>
-            <input type="text" class="form-control" id="pontoReferencia">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <label class="required" for="cidade">Cidade:</label>
-            <input type="text" class="form-control" id="cidade" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <label class="required" for="uf">UF:</label>
-            <input type="text" class="form-control" id="uf" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
-        </div>
-    </div>
-    <hr>
-    <div class="row">
-
-        <div class="col-md-6 mb-3">
-            <label for="profissao">Profissão:</label>
-            <input type="text" class="form-control" id="profissao">
-        </div>
-        <div class="col-md-6 mb-3">
-            <label class="required" for="rendaFamiliar">Renda Familiar:</label>
-            <input type="text" class="form-control" id="rendaFamiliar" required>
-            <div class="invalid-feedback">Campo obrigatório.</div>
-        </div>
-    </div>
-
-    <div class="button-group">
-        <button type="submit" class="btn btn-primary">Cancelar</button>
-        <button type="submit" class="btn btn-primary">Salvar e sair</button>
-        <button type="submit" class="btn btn-primary">Cadastrar outro familiar</button>
-    </div>
-    </form>
+        </form>
     </div>
 </body>
+<script>
+    var PrimeiroFamiliar = true;
+    var inputEndereco = document.getElementById("inputEndereco")
+    if(PrimeiroFamiliar == true){
+        inputEndereco.style.display = "none"
+
+    }
+    inputEndereco.onclick = function () {
+        let enderecoDiv = document.getElementById("endereco")
+debugger
+        if (enderecoDiv.style.display == "none") {
+            enderecoDiv.style.display = "block"
+        }
+        else {
+            enderecoDiv.style.display = "none"
+        }
+    };
+
+
+</script>
 
 </html>
