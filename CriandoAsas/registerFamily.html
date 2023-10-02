@@ -44,11 +44,11 @@
 
 
                         <div class="card-body">
-                            <form>
+                            <form action="http://localhost:3000/api/family" method="POST">
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputIncome" type="text"
+                                            <input name="renda" class="form-control" id="inputIncome" type="text"
                                                 onkeypress="$(this).mask('R$ 999.990,00')"
                                                 placeholder="Informe a Renda">
                                             <label for="inputIncome">Renda Familiar</label>
@@ -59,7 +59,7 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input type="text" class="form-control" id="inputCep"
+                                            <input name="CEP" type="text" class="form-control" id="inputCep"
                                                 placeholder="Informe o CEP" onkeypress="$(this).mask('00000-000')">
                                             <label for="inputCep">CEP</label>
 
@@ -258,7 +258,7 @@
 
                                 <div class="row mb-3">
                                     <div class="col-md-12">
-                                        <button type="button" class="btn btn-primary btn-block">Salvar</button>
+                                        <input type="submit" value="Enviar">
                                         <button type="button" class="btn btn-secondary btn-block">Cancelar</button>
                                     </div>
                                 </div>
@@ -489,7 +489,7 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Cancelar</button>
-                                                <button type="button" class="btn btn-primary">Salvar</button>
+                                                    <input type="submit" value="Enviar">
                                             </div>
                                         </div>
                                     </div>
