@@ -25,7 +25,7 @@
             <div class="col-md-2">
                 <div class="form-floating mb-3 mb-md-0">
                     <!-- Coloca o efeito de ao clicar o nome do campo fica na parte superior do campo-->
-                    <select class="form-select" id="parentesco" required>
+                    <select class="form-select" id="parentesco" name="parentesco" required>
                         <option value="" disabled selected>Selecione</option>
                         <option value="pai">Pai</option>
                         <option value="mae">Mãe</option>
@@ -38,7 +38,7 @@
             </div>
             <div class="col-md-2">
                 <div class="form-floating mb-3 mb-md-0">
-                    <select class="form-select" id="sexo" required>
+                    <select class="form-select" id="gender" name="gender"required>
                         <option value="" disabled selected>Selecione</option>
                         <option value="pai">Feminino</option>
                         <option value="mae">Masculino</option>
@@ -50,7 +50,7 @@
             <div class="col-md-8">
                 <div class="form-floating mb-3">
                     <div class="form-floating">
-                        <input class="form-control" id="inputName" type="text" placeholder="Informe o nome completo" />
+                        <input class="form-control" id="inputName" name="inputName"type="text" placeholder="Informe o nome completo" />
                         <label for="inputName">Nome completo</label>
                     </div>
                 </div>
@@ -60,19 +60,19 @@
         <div class="row mb-3">
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                    <input class="form-control" id="inputCPF" type="text" placeholder="Informe o CPF" />
+                    <input class="form-control" id="CPF" name="inputCPF" type="inputCPF" placeholder="Informe o CPF" />
                     <label for="inputCPF">CPF</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputRG" type="text" placeholder="Informe o RG" />
+                    <input class="form-control" id="inputRG" name="inputRG" type="text" placeholder="Informe o RG" />
                     <label for="inputRG">RG</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputRG" type="text" placeholder="Informe o RG" />
+                    <input class="form-control" id="inputComplementRG" name="imputComplementRG" placeholder="Informe o RG" />
                     <label for="inputRG">Orgão expedidor</label>
                 </div>
             </div>
@@ -82,21 +82,21 @@
         <div class="row mb-3">
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                    <input class="form-control" id="inputNaturalness" type="text"
+                    <input class="form-control" id="inputNaturalness" name="inputNaturalness"
                         placeholder="Informe a naturalidade" />
                     <label for="inputNaturalness">Naturalidade</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputNationality" type="text"
+                    <input class="form-control" id="inputNationality" name="inputNationality"
                         placeholder="Informe a nacionalidade" />
                     <label for="inputNationality">Nacionalidade</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                    <input class="form-control" id="inputOccupation" type="text" placeholder="Informe a profissão" />
+                    <input class="form-control" id="inputOccupation" name="inputOccupation" placeholder="Informe a profissão" />
                     <label for="inputOccupation">Profissão</label>
                 </div>
             </div>
@@ -106,20 +106,20 @@
         <div class="row mb-3">
             <div class="col-md-4">
                 <div class="form-floating mb-3 mb-md-0">
-                    <input class="form-control" id="inputTelephone1" type="text"
+                    <input class="form-control" id="inputTelephone1" name="inputTelephone1"
                         placeholder="Informe o primeiro telefone" />
                     <label for="inputTelephone1">Telefone</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputTelephone2" type="text" placeholder="Informe o sobrenome" />
+                    <input class="form-control" id="inputTelephone2" name="inputTelephone2" type="text" placeholder="Informe o sobrenome" />
                     <label for="inputTelephone2">Telefone Recado</label>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input class="form-control" id="inputEmail" type="text" placeholder="Informe email" />
+                    <input class="form-control" id="inputEmail" name="inputEmail" placeholder="Informe email" />
                     <label for="inputEmail">Email</label>
                 </div>
             </div>
@@ -131,13 +131,13 @@
 
 
         <hr>
-        <a id="inputEndereco" >Endereço diferente</a>
+        <a id="address" namme="address" >Endereço diferente</a>
      
-        <div id="endereco">
+        <div id="inputaddress" namme="inputaddress">
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <label class="required" for="cep">CEP:</label>
-                    <input type="text" class="form-control" id="cep" required>
+                    <input type="text" class="form-control" id="cep" name="cep">
                     <div class="invalid-feedback">Campo obrigatório.</div>
                 </div>
                 <div class="col-md-6 mb-3">

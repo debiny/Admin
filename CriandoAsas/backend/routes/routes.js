@@ -11,7 +11,7 @@ router.post('/family', async (req, res) => {
     let body = req.body;
     try {
         //await database.save();
-        res.json(result.recordset);
+        res.send(result.recordset);
     } catch (error) {
         res.status(500).send('Erro ao cadastrar usuario');
     }

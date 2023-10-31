@@ -48,7 +48,7 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input name="renda" class="form-control" id="inputIncome" type="text"
+                                            <input name="renda" class="form-control" id="inputIncome"name="inputIncome" type="text"
                                                 onkeypress="$(this).mask('R$ 999.990,00')"
                                                 placeholder="Informe a Renda">
                                             <label for="inputIncome">Renda Familiar</label>
@@ -59,7 +59,7 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input name="CEP" type="text" class="form-control" id="inputCep"
+                                            <input name="CEP" type="text" class="form-control" id="inputCep" name="inputCep"
                                                 placeholder="Informe o CEP" onkeypress="$(this).mask('00000-000')">
                                             <label for="inputCep">CEP</label>
 
@@ -71,14 +71,14 @@
                                 <div class="row mb-3">
                                     <div class="col-md-9">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputAddress" type="text"
+                                            <input class="form-control" id="inputAddress" name="inputAddress" type="text"
                                                 placeholder="Endereço" />
                                             <label for="inputAddress">Endereço</label>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputNumber" type="number"
+                                            <input class="form-control" id="inputNumber" name="inputNumber" 
                                                 placeholder="Informe o número" />
                                             <label for="inputNumber">Número</label>
                                         </div>
@@ -88,14 +88,14 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputNeighborhood" type="text"
+                                            <input class="form-control" id="inputNeighborhood" name="inputNeighborhood" type="text"
                                                 placeholder="Bairro" />
                                             <label for="inputNeighborhood">Bairro</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputComplement" type="text"
+                                            <input class="form-control" id="inputComplement" name="inputComplement" type="text"
                                                 placeholder="Informe o complemento" />
                                             <label for="inputComplement">Complemento</label>
                                         </div>
@@ -105,14 +105,14 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputCity" type="text"
+                                            <input class="form-control" id="inputCity" name="inputCity" type="text"
                                                 placeholder="Cidade" />
                                             <label for="inputPassword">Cidade</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputState" type="text"
+                                            <input class="form-control" id="inputState" name="inputState" type="text"
                                                 placeholder="Estado" />
                                             <label for="inputState">Estado</label>
                                         </div>
@@ -120,21 +120,21 @@
                                 </div>
 
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="inputReference" type="text"
+                                    <input class="form-control" id="inputReference" name="inputReference" type="text"
                                         placeholder="Informe ponto de refereferênciaencia" />
                                     <label for="inputReference">Ponto de referência</label>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputTel1" type="number"
+                                            <input class="form-control" id="inputTel1" name="inputTel1"  
                                                 onkeypress="$(this).mask('(00) 0000-00009')" placeholder="Telefone" />
                                             <label for="inputTel1">Telefone</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 mb-md-0">
-                                            <input class="form-control" id="inputTel2" type="number"
+                                            <input class="form-control" id="inputTel2" name="inputTel2" 
                                                 onkeypress="$(this).mask('(00) 0000-00009')"
                                                 placeholder="Telefone recado" />
                                             <label for="inputTel2">Telefone recado</label>
@@ -282,12 +282,12 @@
                                                     Dados Pessoais
                                                 </div>
 
-                                                <form id="endereco">
+                                                <form id="endereco" name="endereco" type="text">
 
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <select class="form-select" id="selectKin">
+                                                                <select class="form-select" id="selectKin" name="selectKin">
                                                                     <option value="" disabled selected>Selecione uma
                                                                         opção</option>
                                                                     <option value="pai">Pai</option>
@@ -303,7 +303,7 @@
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <select class="form-select" id="selectKin2">
+                                                                <select class="form-select" id="selectGender" name="selectGender">
                                                                     <option value="" disabled selected>Selecione uma
                                                                         opção
                                                                     </option>
@@ -319,7 +319,7 @@
 
                                                     <div class="form-floating mb-3">
                                                         <div class="form-floating">
-                                                            <input class="form-control" id="inputName" type="text"
+                                                            <input class="form-control" id="inputName" name="inputName" type="text"
                                                                 placeholder="Informe o sobrenome" />
                                                             <label for="inputName">Nome completo</label>
                                                         </div>
@@ -329,14 +329,14 @@
 
                                                         <div class="col-md-6">
                                                             <div class="form-floating">
-                                                                <input class="form-control" id="inputRG" type="text"
+                                                                <input class="form-control" id="inputRG"  name="inputRG" type="text"
                                                                     placeholder="Informe o RG" />
                                                                 <label for="inputRG">RG</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating">
-                                                                <input class="form-control" id="inputRG" type="text"
+                                                                <input class="form-control" id="inputComplementRG"  name="inputComplementRG" type="text"
                                                                     placeholder="Informe o RG" />
                                                                 <label for="inputRG">Orgao Expedidor</label>
                                                             </div>
@@ -347,7 +347,7 @@
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <input class="form-control" id="inputCPF" type="text"
+                                                                <input class="form-control" id="inputCPF" name="inputCPF" type="text"
                                                                     placeholder="Informe o CPF" />
                                                                 <label for="inputCPF">CPF</label>
                                                             </div>
@@ -355,7 +355,7 @@
 
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <input class="form-control" id="inputNaturalness"
+                                                                <input class="form-control" id="inputNaturalness" name="inputNaturalness"
                                                                     type="text" placeholder="Informe a naturalidade" />
                                                                 <label for="inputNaturalness">Naturalidade</label>
                                                             </div>
@@ -363,7 +363,7 @@
                                                         <div class="row mb-3">
                                                             <div class="col-md-6">
                                                                 <div class="form-floating mb-3 mb-md-0">
-                                                                    <input class="form-control" id="inputDate"
+                                                                    <input class="form-control" id="inputDate" name="inputDate"
                                                                         type="text"
                                                                         onkeypress="$(this).mask('00/00/0000')"
                                                                         placeholder="Informe o data de nascimento" />
@@ -377,7 +377,7 @@
                                                         <div class="row mb-3">
                                                             <div class="col-md-6">
                                                                 <div class="form-floating">
-                                                                    <input class="form-control" id="inputNationality"
+                                                                    <input class="form-control" id="inputNationality" name="inputNationality"
                                                                         type="text"
                                                                         placeholder="Informe a nacionalidade" />
                                                                     <label for="inputNationality">Nacionalidade</label>
@@ -385,7 +385,7 @@
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <div class="form-floating">
-                                                                    <input class="form-control" id="inputEmail"
+                                                                    <input class="form-control" id="inputEmail" name="inputEmail"
                                                                         type="email" placeholder="Informe email" />
                                                                     <label for="inputEmail">Email</label>
                                                                 </div>
@@ -396,7 +396,7 @@
                                                         <div class="row mb-3">
                                                             <div class="col-md-6">
                                                                 <div class="form-floating mb-3 mb-md-0">
-                                                                    <input class="form-control" id="inputTelephone1"
+                                                                    <input class="form-control" id="inputTelephone1" name="inputTelephone1"
                                                                         type="text"
                                                                         onkeypress="$(this).mask('(00) 0000-00009')"
                                                                         placeholder="Informe o primeiro telefone" />
@@ -405,7 +405,7 @@
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <div class="form-floating">
-                                                                    <input class="form-control" id="inputOccupation"
+                                                                    <input class="form-control" id="inputOccupation" name="inputOccupation"
                                                                         type="text" placeholder="Informe Ocupação" />
                                                                     <label for="inputOccupation">Ocupação</label>
                                                                 </div>
@@ -423,14 +423,14 @@
                                                         <div class="row mb-3">
                                                             <div class="col-md-6">
                                                                 <div class="form-floating">
-                                                                    <input class="form-control" id="inputEmail"
+                                                                    <input class="form-control" id="inputEmail"  name="inputEmail"
                                                                         type="text" placeholder="Informe email" />
                                                                     <label for="inputEmail">Nome da Escola</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <div class="form-floating mb-3 mb-md-0">
-                                                                    <input class="form-control" id="inputTelephone1"
+                                                                    <input class="form-control" id="inputTelephone1" name="inputTelephone1"
                                                                         type="text"
                                                                         onkeypress="$(this).mask('(00) 0000-00009')"
                                                                         placeholder="Informe o primeiro telefone" />
@@ -441,25 +441,25 @@
                                                         <div class="row mb-3">
                                                             <div class="col-md-6">
                                                                 <div class="form-floating">
-                                                                    <input class="form-control" id="inputEmail"
-                                                                        type="text" placeholder="Informe email" />
+                                                                    <input class="form-control" id="inputCounty"  name="inputCounty"
+                                                                        type="text" placeholder="Informe Municipio" />
                                                                     <label for="inputEmail">Municipio</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-2">
                                                                 <div class="form-floating mb-3 mb-md-0">
-                                                                    <input class="form-control" id="inputTelephone1"
+                                                                    <input class="form-control" id="inputUF" name="inputUF"
                                                                         type="text"
-                                                                        placeholder="Informe o primeiro telefone" />
-                                                                    <label for="inputTelephone1">UF</label>
+                                                                        placeholder="Informe UF" />
+                                                                    <label for="inputUF">UF</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                 <div class="form-floating mb-3 mb-md-0">
-                                                                    <input class="form-control" id="inputTelephone1"
+                                                                    <input class="form-control" id="inputSeries" name="inputSeries"
                                                                         type="text"
-                                                                        placeholder="Informe o primeiro telefone" />
-                                                                    <label for="inputTelephone1">Serie</label>
+                                                                        placeholder="Informe a série" />
+                                                                    <label for="inputSeries">Serie</label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -467,17 +467,17 @@
                                                         <div class="row mb-3">
                                                             <div class="col-md-6">
                                                                 <div class="form-floating">
-                                                                    <input class="form-control" id="inputEmail"
+                                                                    <input class="form-control" id="inputShift" name="inputShift"
                                                                         type="text" placeholder="Informe email" />
-                                                                    <label for="inputEmail">Turno</label>
+                                                                    <label for="inputShift">Turno</label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <div class="form-floating mb-3 mb-md-0">
-                                                                    <input class="form-control" id="inputTelephone1"
+                                                                    <input class="form-control" id="inputCourse" name="inputCourse"
                                                                         type="text"
-                                                                        placeholder="Informe o primeiro telefone" />
-                                                                    <label for="inputTelephone1">Cursa</label>
+                                                                        placeholder="Informe o curso" />
+                                                                    <label for="inputCourse">Curso</label>
                                                                 </div>
                                                             </div>
                                                         </div>
